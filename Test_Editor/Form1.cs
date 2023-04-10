@@ -125,5 +125,15 @@ namespace Test_Editor
         {
             AddPage();
         }
+
+        private void открытьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Open();
+        }
+
+        private void сохранитьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaveDoc();
+        }
     }
 }
